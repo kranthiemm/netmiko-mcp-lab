@@ -1,0 +1,13 @@
+# Copy to .netmiko.yml and fill in your lab device details.
+# Quote the password in single quotes: passwords starting with * or
+# containing special characters break YAML parsing otherwise.
+sandbox-xe1:
+  device_type: cisco_xe
+  host: <sandbox hostname or IP>
+  username: <username>
+  password: '<password>'
+  port: 22
+
+# Group name must differ from device names
+cisco:
+  - sandbox-xe1

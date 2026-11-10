@@ -1,0 +1,5 @@
+.netmiko.yml
+.netmiko-mcp.yml
+commands.yml
+*.secret
+output/

@@ -1,0 +1,4 @@
+# Copy to .netmiko-mcp.yml and use ABSOLUTE paths (replace <path-to-repo>)
+inventory_type: "netmiko_tools"
+inventory_file: "<path-to-repo>/.netmiko.yml"
+command_file: "<path-to-repo>/commands.yml"

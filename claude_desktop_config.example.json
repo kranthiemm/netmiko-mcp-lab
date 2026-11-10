@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "netmiko": {
+      "command": "/Users/<you>/.local/bin/netmiko-mcp",
+      "env": {
+        "NETMIKO_MCP_CONFIG": "<path-to-repo>/.netmiko-mcp.yml"
+      }
+    }
+  }
+}
